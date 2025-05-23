@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Apply Poppins to all elements */
+  * {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Ensure form elements inherit the font */
+  input, button, textarea, select {
+    font-family: inherit;
+  }
+}
+
+/* Your existing responsive styles */
+@media (max-width: 400px) {
+  .w-\[367px\] {
+    width: 100%;
+    max-width: 367px;
+  }
+  .h-\[883px\] {
+    height: auto;
+    min-height: 883px;
+  }
+}
