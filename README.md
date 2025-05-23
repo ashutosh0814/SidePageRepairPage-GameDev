@@ -89,6 +89,8 @@ npm run dev
 
 Screenshots have been included to demonstrate UI accuracy and functionality.
 ![App Screenshot](./Screenshots/snap1.PNG)
+![App Screenshot](./Screenshots/snap2.PNG)
+![App Screenshot](./Screenshots/snap3.PNG)
 
 ## 📖 Notes
 
